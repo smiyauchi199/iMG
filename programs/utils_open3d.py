@@ -103,7 +103,6 @@ def make_boxes(x_min, x_max, y_min, y_max, z_min, z_max, l, m, n, start_id_of_tr
         X, Y, Z = np.meshgrid(x, y, z)
 
 
-        print("Let's draw a cubic using o3d.geometry.LineSet.")
         points = []
         for i in range(n):
                 for j in range(m):
