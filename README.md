@@ -19,7 +19,7 @@ The reference implementation for ["Isomorphic mesh generation from point clouds 
 2. Place an input point cloud (***.obj) under "inputfile/[Input folder name]/[Object name]"
 3. Run "main.py"
   ```
-  python main.py main.py [Input folder name] [Input file name] [Output folder name] [Scale factor \beta_1] [Num of epochs of global mapping]   [Scale factor \beta_2] [Num of epochs of coarse local mapping] [Threshold \tau_e] [Scale factor \beta_3] [Num of epochs of fine local mapping] [Weight coefficient \alpha] [Noise flag] [Device]
+  python main.py [Input folder name] [Input file name] [Output folder name] [Scale factor \beta_1] [Num of epochs of global mapping]   [Scale factor \beta_2] [Num of epochs of coarse local mapping] [Threshold \tau_e] [Scale factor \beta_3] [Num of epochs of fine local mapping] [Weight coefficient \alpha] [Noise flag] [Device]
   ```
 4. Check final result "fine_local_mapping_result_e{}_s{}_global.obj under [Output folder name]
 
